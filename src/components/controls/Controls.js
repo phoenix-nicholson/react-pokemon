@@ -1,7 +1,7 @@
 import React from 'react';
 import './control.css';
 
-export default function Control({ query, setQuery, setLoading }) {
+export default function Control({ query, setQuery, setLoading, order, setOrder }) {
   return (
     <div>
       <input
@@ -12,6 +12,11 @@ export default function Control({ query, setQuery, setLoading }) {
           setQuery(e.target.value);
         }}
       />
+      <select value={order} onInput={(e) => setOrder(e.target.value)}>
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+      </select>
+
       <button onClick={() => setLoading(true)}>Search</button>
     </div>
   );

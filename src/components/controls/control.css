@@ -1,0 +1,24 @@
+button {
+  font-family: 'VT323', monospace;
+  font-size: 1.3rem;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  margin: 2px;
+}
+input {
+  font-family: 'VT323', monospace;
+  font-size: 1.3rem;
+  background-color: black;
+  border: 1px solid black;
+  margin: 2px;
+  color: white;
+}
+select {
+  font-family: 'VT323', monospace;
+  font-size: 1.3rem;
+  background-color: black;
+  border: 1px solid black;
+  margin: 2px;
+  color: white;
+}
