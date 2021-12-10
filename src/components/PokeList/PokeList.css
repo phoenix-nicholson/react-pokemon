@@ -1,0 +1,10 @@
+.poketto-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.poke {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
